@@ -1,0 +1,59 @@
+body{
+	text-align: center;
+	background-image: url(..//img/bskt.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: hp;
+    src: url("../font/hp.ttf");
+}
+.quizwrapper{
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 20px 50px 50px;
+	width: fit-content;
+	margin: 0 auto;
+}
+.panner a img{
+	height: 120px;
+}
+.hpf{
+	font-family: hp;
+	font-size: 50px;
+	margin-top: 0;
+}
+#score{
+	display: none;
+	border:5px #500404 double;;
+}
+.hpf1 {
+	font-family: 'Sanchez', serif;
+}
+.userguss{
+	font-size: 24px;
+	padding: 6px 8px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+}
+.chkbtn{
+	font-family: 'Sanchez', serif;
+	display: block;
+	padding: 3px 5px;
+	margin: 50px auto;
+	border: double 4px #500404;
+	color: #500404;
+	background-color: #dca113;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+}
+.chkbtn:hover{
+
+cursor: pointer;
+	color: #dca113;
+	background-color: #500404;
+	transition: 1s;}
